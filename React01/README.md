@@ -1,16 +1,22 @@
-# React + Vite
+# React Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive password generator built with **React**, **Tailwind CSS**, and **DaisyUI**. Designed with a clean glassmorphism interface, it lets users generate randomized passwords instantly with customizable length and character options.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Instant Password Generation:** Automatically updates the generated password whenever settings change.
+- **Customizable Length:** Adjust password length smoothly between 6 and 18 characters using the range slider.
+- **Character Toggles:** Easily include or exclude **Numbers** (`0-9`) and **Symbols** (`!@#$%^&*...`).
+- **One-Click Copy:** Copy the generated password directly to your clipboard with instant confirmation.
+- **Modern UI:** Built with a dark gradient backdrop, frosted glass card styling, and responsive controls.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (`useState`, `useCallback`, `useEffect`)
+- **Tailwind CSS**
+- **DaisyUI**
+- **Vite** (or your preferred React bundler)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="869" height="560" alt="image" src="https://github.com/user-attachments/assets/6b03ffde-5413-4d3d-b0b7-9c43acc9dffc" />
+<img width="700" height="503" alt="image" src="https://github.com/user-attachments/assets/1b835972-c273-4ebd-a15b-51ab5077f253" />
+<img width="739" height="516" alt="image" src="https://github.com/user-attachments/assets/f15cb86d-7572-419c-aa5b-245e9cde6494" />
