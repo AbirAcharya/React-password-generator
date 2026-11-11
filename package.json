@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "flowbite": "^4.0.2",
+    "motion": "^14.12.0",
+    "tailwind-merge": "^3.7.0"
+  }
+}
